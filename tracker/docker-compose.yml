@@ -1,0 +1,25 @@
+services:
+  battlemat-tracker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: battlemat-tracker
+    restart: unless-stopped
+    # No Linux, 'network_mode: host' garante menor latencia de UDP e comunicacao direta na rede local.
+    # No Windows/macOS, o mapeamento de portas abaixo e utilizado:
+    ports:
+      - "8888:8888/udp"
+    environment:
+      # URL da camera RTSP (ou troque pelo IP da sua camera na rede)
+      - RTSP_URL=rtsp://admin:0708@192.168.1.6:5543/live/channel0
+      # IP do host que esta rodando a Unreal Engine (no Docker Desktop para Windows, 'host.docker.internal' alcanca a maquina host)
+      - UDP_IP=host.docker.internal
+      - UDP_PORT=8888
+      - HEADLESS=true
+      - WARP_WIDTH=1920
+      - WARP_HEIGHT=1080
+      - ARUCO_DICT=DICT_4X4_50
+    volumes:
+      # Persiste a calibracao e mapeamento de tokens fora do container
+      - ./calibration.json:/app/calibration.json
+      - ./tokens_config.json:/app/tokens_config.json

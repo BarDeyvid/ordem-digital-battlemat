@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "1": {"type": "investigador", "name": "Investigador 1"},
+    "2": {"type": "investigador", "name": "Investigador 2"},
+    "3": {"type": "investigador", "name": "Investigador 3"},
+    "4": {"type": "investigador", "name": "Investigador 4"},
+    "5": {"type": "investigador", "name": "Investigador 5"},
+    "11": {"type": "criatura_sangue", "name": "Zumbi de Sangue"},
+    "12": {"type": "criatura_morte", "name": "Esqueleto de Lodo"},
+    "13": {"type": "criatura_energia", "name": "Anomalia Eletrica"},
+    "14": {"type": "criatura_conhecimento", "name": "Existido"},
+    "20": {"type": "npc", "name": "Aliado Civil"}
+  },
+  "default_type": "token"
+}

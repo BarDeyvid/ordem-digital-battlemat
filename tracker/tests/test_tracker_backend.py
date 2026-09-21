@@ -5,6 +5,10 @@ import socket
 import numpy as np
 import cv2 as cv
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+
 from tracker.detector import TokenDetector
 from tracker.calibration import PerspectiveCalibrator
 from tracker.network import UdpSender

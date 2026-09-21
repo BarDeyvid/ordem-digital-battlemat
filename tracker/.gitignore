@@ -11,3 +11,4 @@ snapshot*.png
 dist/
 build/
 *.egg-info/
+database_dump

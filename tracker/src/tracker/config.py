@@ -13,6 +13,8 @@ CAMERA_SOURCE = 0 if RTSP_URL == "0" else RTSP_URL
 # Configurações de Rede UDP (Destino Unreal Engine)
 UDP_IP = os.getenv("UDP_IP", "127.0.0.1")
 UDP_PORT = int(os.getenv("UDP_PORT", "8888"))
+OSC_PORT = int(os.getenv("OSC_PORT", "8000"))
+ENABLE_OSC = os.getenv("ENABLE_OSC", "true").lower() in ("true", "1", "yes")
 
 # Modo Headless (ideal para Docker / servidores sem tela)
 HEADLESS = os.getenv("HEADLESS", "false").lower() in ("true", "1", "yes")

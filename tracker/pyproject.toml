@@ -10,10 +10,13 @@ requires-python = ">=3.12"
 dependencies = [
     "numpy>=2.5.3",
     "opencv-contrib-python>=5.0.0.93",
+    "python-osc>=1.10.2",
 ]
 
 [project.scripts]
 tracker = "tracker:main"
+simulate = "tracker.simulate:main"
+bridge = "tracker.bridge_server:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

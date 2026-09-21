@@ -21,3 +21,4 @@ __pycache__/
 *.png
 !tracker/markers/*.png
 .pytest_cache/
+fichas-web/

@@ -22,3 +22,9 @@ __pycache__/
 !tracker/markers/*.png
 .pytest_cache/
 fichas-web/
+ai_agents/audio_cache/
+.venv_train/
+ai_agents/.venv_train/
+unsloth_compiled_cache/
+ai_agents/lora_ordem_agents/checkpoint-*/
+ai_agents/lora_ordem_agents/**/optimizer.pt

@@ -1,0 +1,114 @@
+{
+  "Combatente": {
+    "pv_inicial": 20,
+    "pv_por_nex": 4,
+    "pe_inicial": 2,
+    "pe_por_nex": 2,
+    "san_inicial": 12,
+    "san_por_nex": 3,
+    "pericias_iniciais": [
+      "Luta ou Pontaria",
+      "Fortitude ou Reflexos"
+    ],
+    "habilidade_classe": "Ataque Especial: gaste 1 a 5 PE para receber +5 no teste ou +1d no dano por PE gasto.",
+    "trilhas": {
+      "Aniquilador": {
+        "foco": "Dano crítico massivo com uma arma predileta.",
+        "habilidade_10": "A Fila Anda: escolhe arma favorita; margem de ameaça aumenta em +1.",
+        "habilidade_40": "Técnica Letal: multiplicador de crítico aumenta em +1 (ex: x3 vira x4)."
+      },
+      "Comandante de Campo": {
+        "foco": "Liderança tática, mover aliados fora do turno e conceder ações extras.",
+        "habilidade_10": "Inspirar Confiança: concede bônus de acerto e dados extras aos aliados.",
+        "habilidade_40": "Estrategista: como ação de movimento, permite aliado se reposicionar."
+      },
+      "Guerreiro": {
+        "foco": "Mestre corpo a corpo, manobras de combate e contra-ataques.",
+        "habilidade_10": "Técnica Marcial: soma Força ou Agilidade no dano e pode derrubar/desarmar.",
+        "habilidade_40": "Revidar: quando bloqueia um ataque, pode contra-atacar imediatamente."
+      },
+      "Operações Especiais": {
+        "foco": "Ações extras por rodada e mobilidade extrema.",
+        "habilidade_10": "Iniciativa Aprimorada: +5 em Iniciativa e pode sacar armas como ação livre.",
+        "habilidade_40": "Surto de Adrenalina: gasta 5 PE para ganhar uma Ação Padrão extra."
+      },
+      "Tropa de Choque": {
+        "foco": "Tanque supremo, absorção de dano e proteção de aliados frágeis.",
+        "habilidade_10": "Casca Grossa: +1 PV por NEX e bloqueio absorve mais dano.",
+        "habilidade_40": "Proteger Aliado: toma o dano no lugar de um companheiro adjacente."
+      }
+    }
+  },
+  "Especialista": {
+    "pv_inicial": 16,
+    "pv_por_nex": 3,
+    "pe_inicial": 3,
+    "pe_por_nex": 3,
+    "san_inicial": 16,
+    "san_por_nex": 4,
+    "habilidade_classe": "Perito: gasta 2 PE para rolar +1d6 em duas perícias treinadas.",
+    "trilhas": {
+      "Infiltrador": {
+        "foco": "Furtividade, emboscada e dano furtivo massivo.",
+        "habilidade_10": "Ataque Furtivo: se o alvo estiver desprevenido ou flanqueado, causa +1d6 de dano.",
+        "habilidade_40": "Gatuno: move-se com deslocamento normal mesmo furtivo."
+      },
+      "Atirador de Elite": {
+        "foco": "Tiros de longa distância de altíssima precisão com fuzis de caça/precisão.",
+        "habilidade_10": "Mira Apurada: como ação de movimento, ignora penalidade de cobertura e alcance.",
+        "habilidade_40": "Disparo Letal: margem de crítico com armas de fogo aumenta em +2."
+      },
+      "Médico de Campo": {
+        "foco": "Cura, primeiros socorros e sustentação da equipe na batalha.",
+        "habilidade_10": "Paramédico: cura PV de aliados usando Medicina gastando apenas 2 PE.",
+        "habilidade_40": "Cirurgião: pode ressuscitar aliados à beira da morte no mesmo turno."
+      },
+      "Técnico": {
+        "foco": "Engenharia, inventário expandido, armadilhas e explosivos.",
+        "habilidade_10": "Mochila de Utilidades: carrega mais itens e reduz categoria de equipamentos.",
+        "habilidade_40": "Remendar Rápido: conserta itens e cria engenhocas no calor da batalha."
+      },
+      "Negociador": {
+        "foco": "Diplomacia, blefes, distração de inimigos e liderança social.",
+        "habilidade_10": "Eloquência: distrai inimigos como ação padrão, deixando-os vulneráveis.",
+        "habilidade_40": "Motivação: restaura Sanidade e PE dos aliados em combate."
+      }
+    }
+  },
+  "Ocultista": {
+    "pv_inicial": 12,
+    "pv_por_nex": 2,
+    "pe_inicial": 4,
+    "pe_por_nex": 4,
+    "san_inicial": 20,
+    "san_por_nex": 5,
+    "habilidade_classe": "Escolhido pelo Outro Lado: conhece rituais adicionais e pode aprender mais círculos.",
+    "trilhas": {
+      "Graduado": {
+        "foco": "Grimório vasto, máxima quantidade de rituais e DT de resistência altíssima.",
+        "habilidade_10": "Saber Ampliado: aprende 1 ritual adicional de qualquer elemento por círculo.",
+        "habilidade_40": "Mente Aberta: DT de seus rituais aumenta em +2."
+      },
+      "Conduíte": {
+        "foco": "Conjuração rápida, ampliação de alcance e raio de efeito de rituais.",
+        "habilidade_10": "Ampliar Ritual: gasta +2 PE para dobrar o alcance ou área de um ritual.",
+        "habilidade_40": "Acelerar Ritual: gasta +4 PE para conjurar um ritual como Ação Livre!"
+      },
+      "Flagelador": {
+        "foco": "Sacrifica a própria carne e sangue para conjurar rituais sem gastar PE.",
+        "habilidade_10": "Poder do Sangue: pode pagar custos de PE convertendo em dano nos próprios PVs.",
+        "habilidade_40": "Absorção Vital: cura PV quando seus rituais causam dano a inimigos."
+      },
+      "Intuitivo": {
+        "foco": "Resistência mental suprema, imune a pânico e com sexto sentido paranormal.",
+        "habilidade_10": "Mente Inabalável: soma Intelecto na Sanidade e ganha bônus contra Presença Perturbadora.",
+        "habilidade_40": "Escudo Psíquico: ganha RD contra dano mental e efeitos do Medo."
+      },
+      "Lâmina Paranormal": {
+        "foco": "Ocultista guerreiro que ataca corpo a corpo canalizando rituais na lâmina.",
+        "habilidade_10": "Lâmina Amaldiçoada: usa Ocultismo em vez de Luta/Pontaria para atacar.",
+        "habilidade_40": "Golpe Conjurador: quando acerta um ataque CQC, conjura um ritual como ação livre no alvo."
+      }
+    }
+  }
+}

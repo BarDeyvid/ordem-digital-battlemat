@@ -1,0 +1,275 @@
+[
+  {
+    "nome": "Zumbi de Sangue",
+    "elemento": "Sangue",
+    "vd": 20,
+    "tamanho": "Médio",
+    "pv": 45,
+    "defesa": 15,
+    "rd": {
+      "Corte": 5,
+      "Impacto": 5,
+      "Balístico": 5
+    },
+    "vulnerabilidade": "Morte",
+    "presenca_perturbadora": {
+      "dt": 15,
+      "dano_mental": "1d6"
+    },
+    "ataques": [
+      {
+        "nome": "Mordida",
+        "teste": "+5",
+        "dano": "1d10+3 Perfuração"
+      },
+      {
+        "nome": "Garras",
+        "teste": "+5",
+        "dano": "1d6+3 Corte"
+      }
+    ],
+    "habilidade_especial": "Sede de Sangue: se causar dano, cura 5 PV."
+  },
+  {
+    "nome": "Aberração de Carne",
+    "elemento": "Sangue",
+    "vd": 40,
+    "tamanho": "Grande",
+    "pv": 95,
+    "defesa": 17,
+    "rd": {
+      "Corte": 10,
+      "Impacto": 10,
+      "Balístico": 10
+    },
+    "vulnerabilidade": "Morte",
+    "presenca_perturbadora": {
+      "dt": 18,
+      "dano_mental": "2d6"
+    },
+    "ataques": [
+      {
+        "nome": "Pancada Dupla",
+        "teste": "+10",
+        "dano": "2d8+5 Impacto"
+      },
+      {
+        "nome": "Boca Central (Agarrar)",
+        "teste": "+10",
+        "dano": "2d10+5 Mastigação"
+      }
+    ],
+    "habilidade_especial": "Agarrar Aprimorado: teste oposto de Atletismo se acertar a pancada."
+  },
+  {
+    "nome": "Cão do Sangue",
+    "elemento": "Sangue",
+    "vd": 20,
+    "tamanho": "Pequeno/Médio",
+    "pv": 35,
+    "defesa": 16,
+    "rd": {
+      "Balístico": 5
+    },
+    "vulnerabilidade": "Morte",
+    "presenca_perturbadora": {
+      "dt": 14,
+      "dano_mental": "1d4"
+    },
+    "ataques": [
+      {
+        "nome": "Mordida Feroz",
+        "teste": "+7",
+        "dano": "1d8+4 Perfuração e Sangramento"
+      }
+    ],
+    "habilidade_especial": "Matilha: +2 no ataque para cada aliado adjacente ao mesmo alvo."
+  },
+  {
+    "nome": "Esqueleto de Lodo",
+    "elemento": "Morte",
+    "vd": 20,
+    "tamanho": "Médio",
+    "pv": 40,
+    "defesa": 14,
+    "rd": {
+      "Perfuração": 5,
+      "Balístico": 5
+    },
+    "vulnerabilidade": "Energia",
+    "presenca_perturbadora": {
+      "dt": 15,
+      "dano_mental": "1d6"
+    },
+    "ataques": [
+      {
+        "nome": "Toque Entrópico",
+        "teste": "+5",
+        "dano": "1d8+2 Morte e Lento"
+      }
+    ],
+    "habilidade_especial": "Lodo Temporal: alvos adjacentes têm deslocamento reduzido pela metade."
+  },
+  {
+    "nome": "Carniçal",
+    "elemento": "Morte",
+    "vd": 60,
+    "tamanho": "Médio",
+    "pv": 130,
+    "defesa": 20,
+    "rd": {
+      "Corte": 5,
+      "Perfuração": 10,
+      "Balístico": 10
+    },
+    "vulnerabilidade": "Energia",
+    "presenca_perturbadora": {
+      "dt": 20,
+      "dano_mental": "3d6"
+    },
+    "ataques": [
+      {
+        "nome": "Garras Necróticas",
+        "teste": "+12",
+        "dano": "2d8+6 Morte e Envelhecimento"
+      }
+    ],
+    "habilidade_especial": "Distorção Temporal: pode agir duas vezes por rodada."
+  },
+  {
+    "nome": "Anomalia Elétrica",
+    "elemento": "Energia",
+    "vd": 20,
+    "tamanho": "Médio",
+    "pv": 38,
+    "defesa": 18,
+    "rd": {
+      "Eletricidade": 99,
+      "Fogo": 10
+    },
+    "vulnerabilidade": "Conhecimento",
+    "presenca_perturbadora": {
+      "dt": 16,
+      "dano_mental": "1d6"
+    },
+    "ataques": [
+      {
+        "nome": "Arco Voltaico",
+        "teste": "+6",
+        "dano": "2d6+4 Eletricidade (Alcance Curto)"
+      }
+    ],
+    "habilidade_especial": "Teletransporte Caótico: move-se até 9m como ação livre após atacar."
+  },
+  {
+    "nome": "Telopsia",
+    "elemento": "Energia",
+    "vd": 80,
+    "tamanho": "Grande",
+    "pv": 180,
+    "defesa": 22,
+    "rd": {
+      "Impacto": 10,
+      "Balístico": 10
+    },
+    "vulnerabilidade": "Conhecimento",
+    "presenca_perturbadora": {
+      "dt": 22,
+      "dano_mental": "3d8"
+    },
+    "ataques": [
+      {
+        "nome": "Tentáculos de Cabos",
+        "teste": "+14",
+        "dano": "2d10+8 Eletricidade/Impacto"
+      }
+    ],
+    "habilidade_especial": "Estática Ensurdecedora: alvos a alcance curto ficam Atordoados (Vontade DT 22)."
+  },
+  {
+    "nome": "O Existido",
+    "elemento": "Conhecimento",
+    "vd": 20,
+    "tamanho": "Médio",
+    "pv": 35,
+    "defesa": 14,
+    "rd": {
+      "Mental": 99
+    },
+    "vulnerabilidade": "Sangue",
+    "presenca_perturbadora": {
+      "dt": 16,
+      "dano_mental": "2d4"
+    },
+    "ataques": [
+      {
+        "nome": "Toque do Esquecimento",
+        "teste": "+5",
+        "dano": "1d6 Conhecimento + 1d4 Sanidade"
+      }
+    ],
+    "habilidade_especial": "Sussurros da Membrana: quem errar ataque contra ele perde 1 SAN."
+  },
+  {
+    "nome": "Estrangeiro",
+    "elemento": "Conhecimento",
+    "vd": 100,
+    "tamanho": "Médio",
+    "pv": 220,
+    "defesa": 25,
+    "rd": {
+      "Tudo exceto Sangue": 10
+    },
+    "vulnerabilidade": "Sangue",
+    "presenca_perturbadora": {
+      "dt": 25,
+      "dano_mental": "4d6"
+    },
+    "ataques": [
+      {
+        "nome": "Imposição da Verdade",
+        "teste": "+16",
+        "dano": "3d10 Conhecimento + 2d6 Sanidade"
+      }
+    ],
+    "habilidade_especial": "Paradoxo da Consciência: ignora o primeiro ataque de cada rodada."
+  },
+  {
+    "nome": "Cultista Fuzileiro",
+    "elemento": "Nenhum",
+    "vd": 20,
+    "tamanho": "Médio",
+    "pv": 28,
+    "defesa": 16,
+    "rd": {},
+    "vulnerabilidade": "Balístico",
+    "presenca_perturbadora": null,
+    "ataques": [
+      {
+        "nome": "Fuzil de Assalto (Automático)",
+        "teste": "+8",
+        "dano": "2d10 Balístico"
+      }
+    ],
+    "habilidade_especial": "Fogo Coordenado: +2 em dano se atacar mesmo alvo que outro cultista."
+  },
+  {
+    "nome": "Fanático com Faca Ritual",
+    "elemento": "Sangue",
+    "vd": 10,
+    "tamanho": "Médio",
+    "pv": 18,
+    "defesa": 13,
+    "rd": {},
+    "vulnerabilidade": "Balístico",
+    "presenca_perturbadora": null,
+    "ataques": [
+      {
+        "nome": "Punhalada Fanática",
+        "teste": "+5",
+        "dano": "1d4+2 Perfuração + 1d4 Sangue"
+      }
+    ],
+    "habilidade_especial": "Mártir: se morrer, explode em lodo de sangue causando 2d6 de dano."
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "tipos_de_acao": {
+    "padrao": [
+      "Atacar",
+      "Conjurar Ritual",
+      "Usar Pericia",
+      "Manobra de Combate",
+      "Fintar",
+      "Preparar Acao"
+    ],
+    "movimento": [
+      "Mover ate deslocamento (9m)",
+      "Sacar ou Guardar Item",
+      "Levantar-se do Chao",
+      "Mirar (ignora cobertura)"
+    ],
+    "completa": [
+      "Corrida (dobro do deslocamento)",
+      "Golpe de Misericordia",
+      "Primeiros Socorros Complexos"
+    ],
+    "livre": [
+      "Falar",
+      "Soltar Item",
+      "Dissipar Ritual Proprio"
+    ],
+    "reacao": [
+      "Esquiva: soma Reflexos na Defesa contra o ataque.",
+      "Bloqueio: recebe RD contra o ataque igual ao valor de Fortitude (so corpo a corpo).",
+      "Contra-Ataque: realiza 1 ataque corpo a corpo imediato se o inimigo errar o golpe."
+    ]
+  },
+  "manobras_combate": {
+    "derrubar": "Teste oposto de Luta; se vencer, deixa o alvo Caido (-1d20 em testes CQC e -5 na Defesa contra ataques adjacentes).",
+    "desarmar": "Teste oposto de Luta; se vencer, derruba a arma do alvo no chao.",
+    "empurrar": "Teste oposto de Atletismo; empurra o alvo 1,5m para tras.",
+    "agarrar": "Teste oposto de Luta; alvo fica Agarrado e Imovel (Defesa -5 e so pode usar armas leves)."
+  },
+  "cobertura": {
+    "leve": "+2 na Defesa e Reflexos (mesas viradas, caixas baixas, arbustos).",
+    "pesada": "+5 na Defesa e Reflexos (pilares de concreto, muretas macicas, cantos de parede)."
+  },
+  "alcances_metros": {
+    "adjacente": 1.5,
+    "curto": 9.0,
+    "medio": 18.0,
+    "longo": 36.0,
+    "extremo": 90.0
+  }
+}
